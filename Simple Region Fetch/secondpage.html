@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country List</title>
+    <link rel="stylesheet" href="secondpage.css">
+</head>
+<body>
+    <section class="background">
+        <div class="container">
+            <div class="filters">
+                <label for="search-input">Name</label>
+                <input type="text" id="search-input" placeholder="Search...">
+                <fieldset>
+                    <legend>Sorting</legend>
+                    <label><input type="radio" name="sort" value="asc" checked> Ascending</label>
+                    <label><input type="radio" name="sort" value="desc"> Descending</label>
+                </fieldset>
+                <button id="apply-filters">Apply</button>
+            </div>
+            <div id="countries-list" class="grid">
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
